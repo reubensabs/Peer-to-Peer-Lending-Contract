@@ -4,7 +4,28 @@
 
 ## 🚀 Features
 
-- 📝 **Loan Requests**: Borrowers can create loan requests with specified terms
+## 🚀 What's Added
+
+This PR introduces a complete peer-to-peer lending smart contract that enables:
+
+- 📝 **Loan Creation**: Borrowers can create loan requests with customizable terms
+- 💰 **Collateral System**: Secure collateral deposits and management
+- 🤝 **P2P Funding**: Lenders can browse and fund loan requests
+- ⏰ **Time-based Repayment**: Configurable loan durations with automatic expiration
+- 🔒 **Default Protection**: Automatic collateral seizure for defaulted loans
+- 💳 **Balance Management**: Integrated deposit/withdrawal system
+
+## 🛠️ Implementation Details
+
+- **180+ lines** of clean Clarity code
+- **Comprehensive error handling** with 11 distinct error types
+- **Security features** preventing self-funding and unauthorized actions
+- **Interest calculations** using basis points for precision
+- **Status tracking** for complete loan lifecycle management
+
+## 🧪 Ready for Testing
+
+The contract is ready for integration testing and can be deployed to Stacks testnet/mainnet.- 📝 **Loan Requests**: Borrowers can create loan requests with specified terms
 - 💰 **Collateral Management**: Secure collateral deposits before loan creation
 - 🤝 **Peer Funding**: Lenders can fund open loan requests
 - ⏰ **Time-based Loans**: Configurable loan duration with automatic expiration
@@ -134,3 +155,5 @@ clarinet deploy
 ## 📄 License
 
 MIT License - Built with ❤️ on Stacks
+
+compile successful.
